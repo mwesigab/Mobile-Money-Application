@@ -1,0 +1,162 @@
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#tooplate_wrapper {
+	width: 780px;
+	margin: 0 auto;
+	background: url(../images/tooplate_body.jpg) top center no-repeat
+}
+
+#tooplate_header {
+	width: 780px;
+	height: 100px;
+	margin-bottom: 50px;
+}
+
+#site_title { 
+	float: left; 
+	width: 190px; 
+	height: 35px; 
+	margin-top: 72px; 
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 190px; 
+	height: 35px; 
+	color: #fff; 
+	text-indent: -10000px; 
+	background: url(../images/tooplate_logo.png) no-repeat; 
+}
+
+#menu {
+	float: right;
+	width: 560px;
+	height: 40px;
+	margin-top: 70px;
+	background: url(../images/tooplate_menu.png) no-repeat
+}
+
+#content {
+	clear: both;
+	width: 780px;
+	height: 470px;	
+	margin-bottom: 40px;
+	background: url(../images/tooplate_content_bg.png)
+}
+
+.content_section {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px dashed #ccc
+}
+
+.last_section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#footer {
+	clear: both;
+	width: 700px;
+	padding: 0 40px;
+}
+
+#footer_left { 
+	float: left;
+	width: 250px;
+	text-align: left
+}
+
+#footer a {
+	color: #f6bf34;
+}
+
+#social_box {
+	float: right;
+	height: 85px;
+	padding: 0;
+	
+}
+
+#social_box a {
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px; height: 60px;
+}
+
+.scroll {
+    height: 470px;
+    width: 780px;
+    overflow: auto;
+    /* overflow-x: hidden; */
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height: 350px;
+    width: 700px;
+	padding: 40px;
+	overflow: hidden;
+}
+
+ul.navigation {
+    list-style: none;
+	margin: 0;
+    padding: 0;
+}
+
+ul.navigation li {
+    display: inline;
+    margin: 0;
+	padding: 0;
+}
+
+ul.navigation a {
+	float: left;
+	display: block;
+	width: 110px;
+	height: 32px;
+	padding: 10px 2px 0 0;
+	color: #f6bf34;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+    text-decoration: none;
+	background: url(../images/tooplate_menu_divider.png) no-repeat center right;
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #fff;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: 0
+}
+
+.scrollButtons.right {
+    right: 0
+}
+
+.hide {
+    display: none;
+}

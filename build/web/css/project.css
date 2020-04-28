@@ -1,0 +1,58 @@
+body{
+	max-width:1200px;
+	margin-left:150px;
+}
+
+
+#home, #educ, #contact{
+	float:left;
+	list-style:none;
+	color:white;
+	margin-left:90px;
+}
+#home a:link, #educ a:link, #contact a:link{
+	
+	color:white;
+	text-decoration:none;
+	
+}
+#home a:visited, #educ a:visited, #contact a:visited{
+	
+	color:white;
+	text-decoration:none;
+	
+}
+#home a:hover, #educ a:hover, #contact:hover{
+	
+	background-color:white;
+	color:orange;
+	width:10em;
+	display:block;
+}
+
+	
+}#contact{
+	position:absolute;
+	top:100px;
+	margin-left:700px;
+	
+	
+}
+#contact ol{
+	list-style:none;
+	display:none;
+	text-align:center;
+	padding-left:0px;
+	background-color:black;
+	color:white;
+}
+
+#contact:hover ol{
+	display:block;
+}
+
+
+
+
+
+

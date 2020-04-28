@@ -1,0 +1,10 @@
+body{
+	background-image:url(banner.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:fixed;
+}
+
+#1{
+	background-color:blue;
+}
